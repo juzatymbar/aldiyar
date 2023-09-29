@@ -1,0 +1,119 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(./img/unsplash_H6j0Zsy91WY.jpg);
+    background-repeat: no-repeat;
+    min-height: 586px;
+    background-position: right top;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__top {
+    padding-top: 63px;
+    padding-bottom: 144px;
+    display: flex;
+    align-items: center;
+}
+
+
+.header__info-disc h1 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 67px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 569px;
+    line-height: normal;
+    font-style: normal;
+}
+
+.header__info-disc p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 370px;
+    margin-top: 16px;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    grid-gap: 56px;
+}
+
+.nav ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #12121266;
+    transition: all 0.5s;
+}
+
+.nav ul li a:hover {
+    color: #FF6428;
+}
+
+.logo {
+    margin-right: 135px;
+}
+
+h1 span {
+    color: #FF6428;
+}
+
+.get {
+    display: inline-block;
+    font-family: 'Kanit', sans-serif;
+    background-color: #FF6428;
+    width: 192px;
+    height: 60px;
+    padding: 18px, 48px, 18px, 48px;
+    border-radius: 40px;
+    gap: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 33px;
+    box-shadow: 0 0 10px;
+    padding: 10px;
+}
+
+.pmarket {
+    margin-left: 40px;
+    margin-right: 27px;
+    margin-top: 40.81px;
+}
+
+.icon a {
+    transition: all 0.5s;
+}
+
+.icon a:hover {
+    opacity: 0.7;
+}
+.fl {
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+}
