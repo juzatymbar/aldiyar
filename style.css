@@ -82,6 +82,10 @@ h1 span {
     color: #FF6428;
 }
 
+h2 span {
+    color: #FF6428;
+}
+
 .get {
     display: inline-block;
     font-family: 'Kanit', sans-serif;
@@ -107,6 +111,11 @@ h1 span {
 
 .icon a {
     transition: all 0.5s;
+    text-decoration: none;
+}
+
+.astore {
+    text-decoration: none;
 }
 
 .icon a:hover {
@@ -116,4 +125,295 @@ h1 span {
     display: flex;
     min-height: 100px;
     align-items: center;
+}
+
+h2 {
+    font-size: 44px;
+    text-align: center;
+    padding-top: 160px;
+}
+
+.guitar__top {
+    display: flex;
+    padding-top: 154px;
+    justify-content: center;
+    grid-gap: 54px;
+}
+
+.guitar__bottom {
+    display: flex;
+    padding-top: 164px;
+    grid-gap: 54px;
+}
+
+.ash3 {
+    padding-top: 40px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+    color: #666666;
+}
+
+.types {
+    display: flex;
+    padding-top: 80px;
+    grid-gap: 69px;
+    justify-content: center;
+}
+
+.acou {
+    position: absolute;
+    font-size: 20px;
+}
+
+.elec {
+    position: absolute;
+    font-size: 20px;
+}
+
+.bas {
+    position: absolute;
+    font-size: 20px;
+}
+
+.coll {
+    position: absolute;
+    font-size: 20px;
+}
+
+.type {
+    height: 280px;
+    width: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.type-acou {
+    background-image: url(./img/acoustic.jpg);
+}
+
+.type-elec {
+    background-image: url(./img/electric.jpg);
+}
+
+.type-bas {
+    background-image: url(./img/basses.jpg);
+}
+
+.type-coll {
+    background-image: url(./img/collections.jpg);
+}
+
+.acou {
+    font-size: 20px;
+    color: white;
+    padding-top: 220px;
+    padding-left: 65px;
+}
+
+.elec {
+    font-size: 20px;
+    color: white;
+    padding-top: 220px;
+    padding-left: 73px;
+}
+
+.bas {
+    font-size: 20px;
+    color: white;
+    padding-top: 220px;
+    padding-left: 73px;
+}
+
+.coll {
+    font-size: 20px;
+    color: white;
+    padding-top: 220px;
+    padding-left: 53px;
+}
+
+.brands {
+    display: flex;
+    grid-gap: 160px;
+    padding-top: 75px;
+    justify-content: center;
+}
+
+.wt {
+    color: white;
+}
+
+.rythm {
+    margin-top: 180px;
+    background-color: #121212;
+    padding-bottom: 94px;
+}
+
+.iconki {
+    display: flex;
+    grid-gap: 0 277px;
+    justify-content: center;
+    padding-top: 95px;
+}
+
+.rect {
+    border-radius: 20px;
+    color: #262626;
+}
+
+.kj {
+    width: 72px;
+    height: 72px;
+    border-radius: 20px;
+    background-color:#262626;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.aj3 {
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+.pe {
+    text-align: center;
+}
+
+.customer {
+    display: flex;
+    padding-top: 109px;
+    grid-gap: 147px;
+}
+
+.cit {
+    font-size: 24px;
+}
+
+.rw {
+    font-size: 24px;
+    padding-top: 56px;
+}
+
+.pg {
+    font-size: 18px;
+    padding-top: 8px;
+    color: #868686;
+}
+
+h4 span {
+    color: #FF6428;
+}
+
+h4 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.downl {
+    padding-top: 60px;
+}
+
+.qqq {
+    display: flex;
+    padding-top: 240px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: #EEEEEE;
+
+}
+
+.futr {
+    padding-top: 80px;
+
+    display: flex;
+    margin-top: 120px;
+    justify-content: space-between;
+}
+
+.logotip {
+    display: grid;
+}
+
+.adress {
+    padding-top: 28px;
+}
+
+.sms {
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+
+.loc {
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    height: 20px;
+    align-items: center;
+}
+
+.sms span {
+    padding-left: 20px;
+}
+
+.loc span {
+    padding-left: 20px;
+}
+
+h5 {
+    color: #121212;
+    font-size: 18px;
+}
+
+.ulpages {
+    font-size: 16px;
+    color: #12121299;
+    list-style-type: none;
+    
+}
+
+.ulpages li {
+    padding-bottom: 16px;
+}
+
+.str {
+    padding-top: 20px;
+}
+
+.ulpages a {
+    text-decoration: none;
+    color: #12121299;
+}
+
+.fulpages a {
+    text-decoration: none;
+    color: #12121299;
+}
+
+.fulpages {
+    display: flex;
+    color: #12121299;
+    list-style-type: none;
+    grid-gap: 32px;
+    margin-left: -9px;    
 }
