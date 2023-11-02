@@ -144,6 +144,7 @@ h2 {
     display: flex;
     padding-top: 164px;
     grid-gap: 54px;
+    justify-content: center;
 }
 
 .ash3 {
@@ -416,4 +417,199 @@ h5 {
     list-style-type: none;
     grid-gap: 32px;
     margin-left: -9px;    
+}
+@media screen and (max-width: 768px) {
+    header {
+        background-size: 330px;
+        background-position: top right;
+        min-height: 313px;
+    }
+
+    .header__top {
+        padding-top: 40px;
+        padding-bottom: 28px;
+    }
+
+    .header__info-disc h1 {
+        font-size: 20px;
+        max-width: 242px;
+    }
+
+    .header__info-disc p {
+        font-size: 12px;
+        max-width: 306px;
+        margin-top: 0;
+    }
+
+    .logo {
+        margin-right: 24px;
+    }
+
+    .nav ul {
+        grid-gap: 35px;
+    }
+
+    .nav ul li a {
+        font-size: 13px;
+    }
+
+    .get {
+        width: 115px;
+        height: 35px;
+        font-size: 11px;
+        margin-top: -9px;
+    }
+
+    .pmarket {
+        margin-left: 25px;
+        margin-right: 15px;
+        margin-top: 2.81px;
+        width: 20px;
+    }
+
+    .astore {
+        width: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    .guitar img {
+        width: 170px;
+    }
+
+    .guitar__top {
+        padding-top: 30px;
+        grid-gap: 45px;
+    }
+
+    .guitar__bottom {
+        padding-top: 30px;
+        grid-gap: 45px;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    .ash3 {
+        padding-top: 5px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    .type {
+        height: 172px;
+    }
+
+    .types {
+        padding-top: 56px;
+    }
+
+    .acou {
+        padding-top: 130px;
+        padding-left: 30px;
+    }
+
+    .elec {
+        padding-top: 130px;
+        padding-left: 38px;
+    }
+
+    .bas {
+        padding-top: 130px;
+        padding-left: 40px;
+    }
+
+    .coll {
+        padding-top: 130px;
+        padding-left: 22px;
+    }
+
+    .brands {
+        grid-gap: 60px;
+    }
+
+    .rythm {
+        margin-top: 40px;
+    }
+
+    .iconki {
+        grid-gap: 0 32px;
+        padding-top: 70px;
+    }
+
+    .kj {
+        width: 62px;
+        height: 62px;
+    }    
+
+    .kj img {
+        width: 30px;
+        padding-right: 5px;
+    }
+
+    .customer {
+        grid-gap: 100px;
+    }
+
+    .photo img {
+        width: 250px;
+    }
+
+    .cit {
+        font-size: 20px;
+    }
+
+    .rw {
+        padding-top: 35px;
+    }
+
+    .qqq {
+        padding-top: 90px;
+    }
+
+    .rightside img {
+        width: 350px;
+    }
+
+    .downl {
+        width: 300px;
+        padding-top: 45px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .futr {
+        margin-top: 40px;
+    }
+
+    .logor {
+        width: 130px;
+    }
+
+    .adress {
+        padding-top: 0;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    .ulpages {
+        font-size: 13px;
+    }
+
+    .fulpages {
+        font-size: 13px;
+        grid-gap: 12px;
+    }
+
+@media screen and (max-width: 420px) {
+    
 }
